@@ -1,11 +1,17 @@
 #include <TM1637Display.h>
 #include <TimeLib.h>
 
+///////////////////////////////
+//  Constant definition
+
 int CLK = 2;
 int DIO = 3;
 int cont = 0;
 
 TM1637Display display(CLK, DIO);
+
+///////////////////////////////
+//  Code
 
 void setup() {
   // put your setup code here, to run once:
